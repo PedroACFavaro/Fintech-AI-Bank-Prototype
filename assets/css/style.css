@@ -1,0 +1,96 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    
+}
+
+*::selection{
+    background-color: #037580;
+    color:rgb(59, 59, 59);
+}
+
+body {
+    background-color: #081B23;
+    color:white;
+}
+
+h1,  h2, p{
+    margin:25px;
+}
+h3{
+    font-size: 22px;
+}
+
+
+.container-main {
+    background-color: #013D41;
+    font-size: 20px;
+    font-weight: 700;
+    height: 100%;
+    padding:1px;
+    border-radius: 5px;;
+}
+.container-1 , .container-botoes-3b{
+    display: flex;
+
+}
+
+div .AI{
+    color: rgb(51, 237, 243);
+}
+
+div .container-botoes-1:hover, .container-botoes-2:hover, .AI:hover, .container-botoes-3:hover {
+    background-color: #037580;
+    color:rgb(212, 212, 212);
+
+}
+
+.container-botoes-1, .container-botoes-3{
+    background-color: #02575e;
+    color: white;
+    width: 250px;
+    margin: 5px 3px 0px;
+    border-radius: 15px;
+    text-align: center;
+    flex: 1 1 auto;
+    transition: 0.3s;
+}
+
+div.container-2, .container-informacoes, .container-servicos, .container-AI{
+    background-color: #081B23;
+    font-size:20px;
+    margin: 0px 20px;
+}
+
+.container-botoes-2{
+    background-color: #013D41;
+    padding:15px;
+    width: 200px;
+    margin: 2px 30px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+div .green{
+    font-size:30px;
+    color: rgb(0, 255, 64);
+    margin: 0px 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #081B23;
+    text-align: left;
+}
+th {
+    background-color: #013D41;
+}
+tr:nth-child(even) {
+    background-color: #002b2e;
+}
